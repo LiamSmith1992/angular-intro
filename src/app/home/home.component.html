@@ -1,5 +1,5 @@
-<p>home works!</p>
-<h2>Learning it up</h2>
+<p [ngClass]="className">home works!</p>
+<h2 [style.color]="colorName">Learning it up</h2>
 <input [(ngModel)]="headername">
 <br>
 
@@ -8,3 +8,7 @@
 <br>
 
 <input [(ngModel)]="headername">
+
+<ul>
+  <li *ngFor="let item of colors">{{item}}</li>
+</ul>
