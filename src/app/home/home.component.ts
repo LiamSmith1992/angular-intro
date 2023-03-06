@@ -8,11 +8,16 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
   constructor() { }
-  headername = "angular 14 Tutorial"
+  headername = "angular 14 Tutorial";
+  colorName = "red";
+  className = "headClass"
+
+  colors = ['for', 'loop', 'is', 'working', 'red', 'green', 'yellow', 'pink']
 
 
   functionclick(name: string) {
-    alert(name)
+    var info: string = "-------two way binding"
+    alert(name + info)
   }
 
 
