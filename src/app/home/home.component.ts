@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  constructor() { }
+  headername = "angular 14 Tutorial"
+
+
+  functionclick(name: string) {
+    alert(name)
+  }
+
+
 }
